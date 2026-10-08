@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LIBRARY MEMBERSHIP</title>
+</head>
+
+<body>
+
+    <h1>LIBRARY MEMBER PROFILE</h1>
+
+    <p>Welcome to our <b>Library Membership</b> page.</p>
+
+    <p>
+        Become a registered member and enjoy our library services.
+    </p>
+
+    <hr>
+
+    <h2>Our Library</h2>
+
+    <p>
+        <b>Library:</b> A place where members can read and borrow books.
+        <br>
+        Membership is open to all eligible students.
+    </p>
+
+    <a href="https://portal.aiub.edu/">AIUB PORTAL</a>
+
+    <br><br>
+
+    <img src="https://static.vecteezy.com/system/resources/thumbnails/069/689/477/small/books-on-a-table-in-a-library-with-bookshelves-free-photo.jpg"
+         alt="Library Image"
+         width="150">
+
+    <h2>Library Members</h2>
+
+    <table border="1" cellpadding="10">
+        <tr>
+            <th>MEMBER ID</th>
+            <th>NAME</th>
+            <th>E-MAIL</th>
+            <th>IMAGE</th>
+        </tr>
+
+        <tr>
+            <td>101</td>
+            <td>neymar</td>
+            <td>neymar@gmail.com</td>
+            <td>
+                <img src="https://www.pngmart.com/files/21/Funny-Face-PNG-Clipart.png"
+                     width="100px"
+                     height="60px"
+                     alt="Member">
+            </td>
+        </tr>
+
+        <tr>
+            <td>102</td>
+            <td>ronaldo</td>
+            <td>ronaldo@gmail.com</td>
+            <td>
+                <img src="https://purepng.com/public/uploads/thumbnail//purepng.com-funny-guymanpeoplepersonsmalefunny-11215251259805edni.png"
+                     width="100px"
+                     height="60px"
+                     alt="Member">
+            </td>
+        </tr>
+    </table>
+
+    <h2>Membership Registration Form</h2>
+
+    <form action="" method="GET">
+
+        <label>NAME:</label>
+        <input type="text" name="NAME" required>
+
+        <br><br>
+
+        <label>E-MAIL:</label>
+        <input type="email" name="E-MAIL" required>
+
+        <br><br>
+
+        <label>PASSWORD:</label>
+        <input type="password" name="PASSWORD" required>
+
+        <br><br>
+
+        <label>AGE:</label>
+        <input type="number" name="AGE" required>
+
+        <br><br>
+
+        <label>DOB:</label>
+        <input type="date" name="DOB" required>
+
+        <br><br>
+
+        <label>GENDER:</label>
+
+        <input type="radio" name="GENDER" value="MALE" required>
+        MALE
+
+        <input type="radio" name="GENDER" value="FEMALE">
+        FEMALE
+
+        <br><br>
+
+        <label>MEMBERSHIP TYPE:</label>
+
+        <select name="MEMBERSHIP" required>
+            <option value="">SELECT</option>
+            <option value="Student">STUDENT</option>
+            <option value="Regular">REGULAR</option>
+            <option value="Premium">PREMIUM</option>
+        </select>
+
+        <br><br>
+
+        <label>PROFILE PICTURE:</label>
+        <input type="file" name="PROFILE">
+
+        <br><br>
+
+        <label>ADDRESS:</label>
+        <br>
+        <textarea name="ADDRESS" rows="5" cols="30" required></textarea>
+
+        <br><br>
+
+        <input type="checkbox" name="terms" required>
+        I agree to the Terms and Conditions.
+
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>
